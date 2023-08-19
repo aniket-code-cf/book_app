@@ -3,7 +3,7 @@ import "./Book.css";
 import axios from 'axios'
 import Book from './Book';
 
-const URL="http://localhost:5000/books"
+const URL="https://api-book-app-zznr.onrender.com/books"
 
 const fetchHandler=async ()=>
 {

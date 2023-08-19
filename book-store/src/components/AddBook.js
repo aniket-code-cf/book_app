@@ -24,7 +24,7 @@ const AddBook = () => {
         ))
     };
     const sendRequest=async()=>{
-        await axios.post("http://localhost:5000/books",
+        await axios.post("https://api-book-app-zznr.onrender.com/books",
         {
             name:String(inputs.name),
             author:String(inputs.author),
